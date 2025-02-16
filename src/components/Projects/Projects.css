@@ -1,0 +1,82 @@
+.projects{
+    width: 1920px;
+    height: 137px;
+}
+
+
+.projects-hero{
+    margin: 50px 0 50px 242px;
+    max-width: 767px;
+}
+
+.projects-hero h2{
+    font-size: 50px;
+    font-family: "Poppins", serif;
+}
+
+.projects-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px 22px;
+    margin-left: 100px;
+}
+
+
+.project-card .thumb{
+    
+    border-style:ridge;
+    border-radius: 37px 0 37px 0;
+    box-shadow: 0px 3px 5px 0px;
+    height: 700px;
+    width: 550px;
+    text-align: center;
+
+}
+
+
+.project-card p{
+    font-size: 28px;
+    text-align: justify;
+    font-family: "Poppins", serif;
+    
+}
+
+.project-card #image{
+    
+    width: 450px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px 0 0 10px;
+
+}
+
+.project-card button{
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+.sobre {
+    margin: 150px 0 0 192px;
+}
+
+.sobre h1{
+    font-size: 64px;
+    font-family: "Poppins", serif;
+}
+
+@media (max-width: 768px){
+    .projects-grid{
+      grid-template-columns: repeat(2,1fr);
+
+    }
+}
+
+@media (max-width: 568px){
+    .projects-grid{
+        grid-template-columns: 1fr;
+  
+      }
+}

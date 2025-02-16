@@ -1,0 +1,46 @@
+.hero {
+
+    width: 1920px;
+    height: 537px;
+    padding: 50px;
+    margin-left: 192px;
+}
+
+.hero h1{
+    font-size: 50px;
+    line-height: 125%;
+    font-family: "Poppins", serif;
+}
+
+.hero p{
+    margin-top: 40px;
+    font-family: "Poppins", serif;
+}
+
+.hero button{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+    border-radius: 58px;
+    border: none;
+}
+
+.hero-text{
+    width: 40%;
+}
+
+#list{
+    position: absolute;
+}
+
+@media (max-width: 768px){
+    .hero-text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 568px){
+    .hero h1{
+        font-size: 30px;
+    }
+}
